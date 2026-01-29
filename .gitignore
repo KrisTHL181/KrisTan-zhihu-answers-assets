@@ -1,0 +1,17 @@
+# macOS 系统文件
+.DS_Store
+
+# Windows 缩略图缓存
+Thumbs.db
+ehthumbs.db
+
+# 各种编辑器的临时配置文件
+.vscode/
+.idea/
+*.swp
+
+# Python 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
