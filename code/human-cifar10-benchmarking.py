@@ -4,6 +4,12 @@ import torchvision.transforms as transforms
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Button
 
+try:
+    from sklearn.metrics import confusion_matrix, classification_report
+    HAS_SKLEARN = True
+except ImportError:
+    HAS_SKLEARN = False
+
 class_names = ['airplane', 'automobile', 'bird', 'cat', 'deer', 
                'dog', 'frog', 'horse', 'ship', 'truck']
 
@@ -18,9 +24,16 @@ class CifarLabeler:
         self.total = 0
         self.current_label = None
         self.last_result = "Ready" # Last answer result text
-
+        
+        # Store all true labels and user predictions
+        self.all_true_labels = []
+        self.all_user_preds = []
+        
         self.fig, self.ax = plt.subplots(figsize=(9, 7))
         plt.subplots_adjust(bottom=0.3, top=0.85)
+        
+        # Print statistics when window is closed
+        self.fig.canvas.mpl_connect('close_event', self.on_close)
         
         # UI text elements
         self.score_text = self.fig.text(0.5, 0.92, "", ha='center', fontsize=12, fontweight='bold', color='blue')
@@ -64,6 +77,10 @@ class CifarLabeler:
             plt.draw()
 
     def check_answer(self, user_choice):
+        # Record the user's choice and update statistics
+        self.all_true_labels.append(self.current_label)
+        self.all_user_preds.append(user_choice)
+        
         # Check if the user's choice matches the true label
         is_correct = (user_choice == self.current_label)
         true_name = class_names[self.current_label]
@@ -75,16 +92,54 @@ class CifarLabeler:
             self.last_result = f"Wrong! It was '{true_name}'"
         
         self.total += 1
-        
         # Feedback every 20 images
         if self.total % 20 == 0:
             acc = (self.correct / self.total) * 100
             print(f"\n[Check-point] Total: {self.total} | Accuracy: {acc:.2f}%")
-            
+
         self.next_image()
+
+    def on_close(self, event):
+        """Print final statistics when the window is closed."""
+        print("\n" + "="*30)
+        print("   FINAL TEST STATISTICS")
+        print("="*30)
+        
+        if not self.all_true_labels:
+            print("No data collected.")
+            return
+
+        if HAS_SKLEARN:
+            # Show confusion matrix and classification report
+            cm = confusion_matrix(self.all_true_labels, self.all_user_preds, labels=range(10))
+            print("\nConfusion Matrix (Rows: True, Cols: User Pred):")
+            print(f"{'':>12}", end="")
+            for name in class_names:
+                print(f"{name:>11}", end="")
+            print()
+            
+            for i, row in enumerate(cm):
+                print(f"{class_names[i]:>12}", end="")
+                for val in row:
+                    print(f"{val:>11}", end="")
+                print()
+                
+            print("\nClassification Report:")
+            print(classification_report(
+                self.all_true_labels, 
+                self.all_user_preds, 
+                labels=list(range(len(class_names))),
+                target_names=class_names, 
+                zero_division=0
+            ))
+        else:
+            print(f"Total Samples: {self.total}")
+            print(f"Final Accuracy: {(self.correct/self.total)*100:.2f}%")
+            print("\n(Tip: Install 'scikit-learn' for a detailed confusion matrix)")
 
 if __name__ == "__main__":
     print("--- CIFAR-10 Human Benchmark Tool ---")
     print("Look at the image and click the corresponding category.")
+    print("Statistics will be printed in the console AFTER you close the window.")
     labeler = CifarLabeler(testloader)
     plt.show()
