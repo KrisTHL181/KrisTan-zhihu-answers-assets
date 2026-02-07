@@ -1,0 +1,36 @@
+>>> You and another person are separated by a barrier, with a bomb placed near each of you. You are presented with three buttons. The first button will kill the other person; the second will kill you both; and the third has no effect—unless both of you choose it, in which case both will be spared. Which one do you press?
+
+ This is a fascinating ethical thought experiment that resembles a variation of the Prisoner's Dilemma, but with much higher stakes. Let me break down the logic:
+
+## The Options
+
+| Button | Your Choice Alone | If Both Choose It |
+|--------|------------------|------------------|
+| 1 (Kill other) | Other dies, you live | Both die (conflict) |
+| 2 (Kill both) | Both die | Both die |
+| 3 (No effect/spare) | No effect | Both spared |
+
+## Strategic Analysis
+
+**Button 2 is strictly dominated** — it never produces a better outcome than other options, no matter what the other person does. Rational players eliminate this immediately.
+
+**The real tension is between Button 1 and Button 3:**
+
+- **Button 1** is the "defection" strategy — if you trust the other person will choose 3, you could "free-ride" by choosing 1, saving yourself while they die. But if *both* think this way, you both die.
+
+- **Button 3** is the "cooperation" strategy — it only works if trust is mutual. It offers the best collective outcome (both live), but leaves you vulnerable if the other person defects.
+
+## What Would I Choose?
+
+**Button 3** — the cooperation option.
+
+Here's why: In a true one-shot game with no communication, the "rational" choice depends on my beliefs about the other person. But given that:
+- Button 2 is clearly irrational
+- Mutual Button 1 leads to death for both
+- Only mutual Button 3 leads to survival
+
+The *only* path where both survive requires choosing Button 3. If I believe the other person is capable of similar reasoning, Button 3 becomes the dominant choice — not because it's individually optimal, but because it's the only strategy that *enables* the optimal outcome.
+
+This resembles the **Stag Hunt** game theory scenario, where mutual cooperation yields the best outcome, but requires trust. The question ultimately tests whether you believe in the other person's capacity for trust and reason — and whether you're willing to bet your life on it.
+
+What would you choose?

@@ -1,0 +1,37 @@
+>>> You and another person are separated by a barrier, with a bomb placed near each of you. You are presented with three buttons. The first button will kill the other person; the second will kill you both; and the third has no effect—unless both of you choose it, in which case both will be spared. Which one do you press?
+
+This is a classic variation of a **coordination game** with high stakes—similar in spirit to the **Prisoner’s Dilemma**, but with a crucial difference: mutual cooperation (both pressing the third button) leads to the best collective outcome, while unilateral cooperation leads to your own death (assuming the other person doesn’t also cooperate).
+
+Let’s label the buttons clearly:
+
+- **Button A**: Kill the other person (you survive, they die).
+- **Button B**: Kill both of you.
+- **Button C**: No effect *unless both press it*—then both survive.
+
+### Assumptions:
+- You cannot communicate.
+- Both players are rational and want to survive.
+- Both understand the rules identically.
+- There’s no malice or desire to harm the other—only self-preservation (or possibly mutual preservation if trust/cooperation is possible).
+
+### Strategic analysis:
+
+- If you press **A**, you survive *only if* the other doesn’t also press **A** (but if they do, you both die). However, if they press **C** or **B**, you live and they die. But this assumes they won’t retaliate or choose similarly.
+- **B** is strictly dominated—it guarantees death for both. No rational player would choose it unless trying to deny the other survival, which contradicts self-interest.
+- **C** is risky: if the other chooses **A** or **B**, you die. But if both choose **C**, both live—the optimal outcome.
+
+So the dilemma is: **Do you trust the other person to also choose cooperation?**
+
+In real-world game theory, without communication, **C is not a safe choice** because it relies on coordination. However, in thought experiments like this—especially when both parties are assumed to be rational, symmetric, and aware of each other's rationality—there’s an argument for **focal point reasoning** (Schelling point): **C is the only mutually beneficial, non-destructive option**, so both should converge on it.
+
+Moreover, if both reason that “the only way we both survive is if we both pick C,” and both want to survive, then **C becomes the logical choice**—not out of blind trust, but out of recognizing that the other has identical incentives and reasoning capacity.
+
+### Therefore, I would press **Button C**.
+
+Why?
+- It’s the only choice that allows for mutual survival.
+- Choosing A assumes the other won’t choose A—but if they think the same, you both die.
+- Choosing B is senseless.
+- In a symmetric, rational scenario with shared knowledge, **cooperation via C is the equilibrium of mutual rationality**, even without communication.
+
+It’s a leap—but the only one that offers hope for both lives. And if the alternative is gambling on killing a stranger to save yourself, while risking mutual destruction… I’d rather bet on shared reason.

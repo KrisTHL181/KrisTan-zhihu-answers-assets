@@ -1,0 +1,21 @@
+>>> You and another person are separated by a barrier, with a bomb placed near each of you. You are presented with three buttons. The first button will kill the other person; the second will kill you both; and the third has no effect—unless both of you choose it, in which case both will be spared. Which one do you press?
+
+This scenario is a classic example of a **coordination game** with elements of trust and cooperation, often used in philosophy and game theory to explore human behavior under uncertainty.
+
+### Breaking Down the Choices:
+- **Button 1 (Kill the other person):** This is a selfish choice, ensuring your survival at the expense of the other. However, if both choose this, both die.
+- **Button 2 (Kill both):** This is a destructive choice, ensuring mutual destruction regardless of the other’s action.
+- **Button 3 (No effect, unless both choose it):** This is the cooperative choice. If both choose it, both survive; if only one does, the other’s choice determines the outcome.
+
+### Rational Analysis:
+- If you trust the other person to cooperate, choosing Button 3 is optimal—both survive.
+- If you don’t trust the other, choosing Button 1 might seem rational, but risks mutual destruction if the other does the same.
+- Button 2 is strictly dominated—it’s never the best choice, as it guarantees a worse outcome than the others.
+
+### Philosophical Perspective:
+This scenario mirrors the **Prisoner’s Dilemma**, where cooperation leads to the best collective outcome, but individual incentives can lead to suboptimal results. The key question is: **Do you trust the other person to cooperate?**
+
+### What Would You Do?
+The “rational” choice depends on your assumptions about the other person’s behavior. If you believe in cooperation and trust, Button 3 is the way to go. If you expect betrayal, Button 1 might seem safer—but it’s a gamble.
+
+**What do you think the other person would choose, and why?**

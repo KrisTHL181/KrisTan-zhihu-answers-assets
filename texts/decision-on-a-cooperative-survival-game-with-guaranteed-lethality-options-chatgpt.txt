@@ -1,0 +1,45 @@
+>>> You and another person are separated by a barrier, with a bomb placed near each of you. You are presented with three buttons. The first button will kill the other person; the second will kill you both; and the third has no effect—unless both of you choose it, in which case both will be spared. Which one do you press?
+
+This is a coordination problem with asymmetric risk and no communication—essentially a variant of the **Prisoner’s Dilemma / Stag Hunt under lethal payoffs**.
+
+### Buttons
+
+* **Button A**: Kill the other person (you survive).
+* **Button B**: Kill both (guaranteed mutual death).
+* **Button C**: No effect unless *both* choose it → mutual survival.
+
+### Rational analysis
+
+Let the other player’s choice be uncertain.
+
+| Your choice | Other chooses A | Other chooses B | Other chooses C |
+| ----------- | --------------- | --------------- | --------------- |
+| **A**       | You die         | You die         | You live        |
+| **B**       | You die         | You die         | You die         |
+| **C**       | You die         | You die         | You live        |
+
+* **Button B is strictly dominated**: it never yields survival.
+* **Button A and C are risk-equivalent in worst case**: if the other chooses A or B, you die regardless.
+* **Button C uniquely allows mutual survival** if both coordinate.
+
+### Game-theoretic solution
+
+* **C is the Pareto-optimal coordination equilibrium.**
+* **A is a dominant strategy only under extreme distrust or adversarial assumptions.**
+* **B is irrational unless you have non-standard preferences (e.g., spite).**
+
+### What would I press?
+
+**Button C.**
+
+Reasoning:
+
+* It is the only option that permits mutual survival.
+* If the other player is rational and models the situation similarly, C is the focal point.
+* Choosing A ensures death if the other chooses A or B; choosing C at least preserves the chance of survival.
+
+### Human psychology note
+
+In real experiments, many humans choose **A** due to risk aversion and distrust. However, from a normative rational-agent perspective, **C is the correct choice** unless you assign near-zero probability that the other person will reason similarly.
+
+If you want, I can formalize this using expected utility, common knowledge assumptions, or correlated equilibrium reasoning.
