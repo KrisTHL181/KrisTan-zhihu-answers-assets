@@ -1,0 +1,149 @@
+﻿Problem,P_Instinct (Logprob),P_Stated (T0),P_Stated (T1),Dissonance_Score,Binary_Decision
+Abundance conjecture,1.0000,0.8500,0.8500,0.1500,Yes
+Ahlfors measure conjecture,0.8805,0.7500,0.7500,0.1305,Yes
+Alon–Saks–Seymour conjecture,0.3961,0.6500,0.7500,-0.2539,No
+Alspach's conjecture,0.6906,0.8500,0.7500,-0.1594,Yes
+Artin's conjecture on primitive roots,1.0000,0.8500,0.7500,0.1500,Yes
+Atiyah conjecture for groups,0.2310,0.7500,0.7500,-0.5190,No
+Babai's problem,0.3966,0.7500,0.7500,-0.3534,No
+Barnette's conjecture,0.0000,0.3500,0.4500,-0.3500,No
+Beal's conjecture,0.1038,0.0010,0.0030,0.1028,No
+Beck's conjecture on set systems,0.0654,0.6500,0.7500,-0.5846,No
+Beilinson's conjectures,0.8234,0.8500,0.8500,-0.0266,Yes
+Berge conjecture on knots,0.3644,0.7500,0.8500,-0.3856,No
+Birch and Swinnerton-Dyer conjecture,1.0000,0.7500,0.8500,0.2500,Yes
+Birkhoff conjecture,0.6960,0.7500,0.8500,-0.0540,Yes
+Bloch–Kato conjecture,1.0000,0.8500,0.8750,0.1500,Yes
+Bogomolov conjecture,0.5459,0.8500,0.8500,-0.3041,Yes
+Boolean Pythagorean triples problem,1.0000,0.7500,0.7500,0.2500,Yes
+Borel conjecture,0.6218,0.9500,0.8500,-0.3282,Yes
+Bost conjecture,0.7438,0.7500,0.7500,-0.0062,Yes
+Bounded Burnside problem,0.9050,0.9500,0.9500,-0.0450,Yes
+Brocard's conjecture,1.0000,0.8500,0.8500,0.1500,Yes
+Brouwer's conjecture,0.1904,0.7500,0.7500,-0.5596,No
+Bunyakovsky conjecture,1.0000,0.8500,0.8500,0.1500,Yes
+Carathéodory conjecture,0.9474,0.7500,0.8500,0.1974,Yes
+Carmichael's totient function conjecture,0.8388,0.9990,0.9900,-0.1602,Yes
+Casas-Alvero conjecture,0.6902,0.7500,0.8750,-0.0598,Yes
+Catalan's Mersenne conjecture,0.6526,0.7500,0.9500,-0.0974,Yes
+Catalan–Dickson conjecture,0.0590,0.3500,0.3500,-0.2910,No
+Cereceda's conjecture on colorings of degenerate graphs,0.0000,0.7340,0.7500,-0.7340,No
+Chinese hypothesis,0.3004,0.7500,0.7500,-0.4496,No
+Cobordism hypothesis,0.8992,0.9500,0.9500,-0.0508,Yes
+Collatz conjecture,0.5298,0.0010,0.0000,0.5288,Yes
+Congruent number problem,1.0000,0.7500,0.7500,0.2500,Yes
+Connelly’s blooming conjecture,0.0507,0.6500,0.7140,-0.5993,No
+Connes embedding problem,0.7871,0.2500,0.2500,0.5371,Yes
+Conway's 99-graph problem,0.5550,0.7500,0.7500,-0.1950,Yes
+Conway's thrackle conjecture,0.8393,0.8500,0.8500,-0.0107,Yes
+Crouzeix's conjecture,0.6381,0.7500,0.6500,-0.1119,Yes
+Dade's conjecture,0.3003,0.7500,0.7500,-0.4497,No
+Danzer's problem,0.0827,0.6500,0.6500,-0.5673,No
+Degree diameter problem,0.2390,0.7500,0.8500,-0.5110,No
+Deligne conjecture,0.9245,0.8500,0.8500,0.0745,Yes
+Deligne's conjecture on 1-motives,0.9196,0.8500,0.8500,0.0696,Yes
+Deligne's conjecture on Hochschild cohomology,0.9262,0.9500,0.9500,-0.0238,Yes
+Delta-conjecture,0.3563,0.7500,0.7500,-0.3937,No
+Demazure conjecture,0.9317,0.7500,0.7500,0.1817,Yes
+Determinantal conjecture,0.4148,0.8500,0.8500,-0.4352,No
+Dickson's conjecture,1.0000,0.8500,0.8500,0.1500,Yes
+Dirichlet's divisor problem,0.9445,0.7500,0.7500,0.1945,Yes
+Dixmier conjecture,0.9494,0.7500,0.7500,0.1994,Yes
+Dodecahedral conjecture,1.0000,0.8500,0.8500,0.1500,Yes
+Double bubble conjecture,1.0000,0.8500,0.8500,0.1500,Yes
+Dubner's conjecture,0.2462,0.7500,0.7500,-0.5038,No
+Eden's conjecture,0.0587,0.7500,0.7500,-0.6913,No
+Ehrenpreis conjecture,0.8061,0.7500,0.6500,0.0561,Yes
+Ehrhart's volume conjecture,0.2284,0.8500,0.8750,-0.6216,No
+Eilenberg–Ganea conjecture,0.5680,0.3500,0.6500,0.2180,Yes
+Erdős conjecture on arithmetic progressions,1.0000,0.8500,0.8500,0.1500,Yes
+Erdős sumset conjecture,0.8608,0.7500,0.8500,0.1108,Yes
+Eremenko's conjecture,0.6059,0.7500,0.4500,-0.1441,Yes
+Existence of perfect cuboids conjecture,0.4557,0.0010,0.0010,0.4547,No
+Exponent pair conjecture,0.7932,0.7500,0.6750,0.0432,Yes
+Extended Riemann hypothesis,1.0000,0.7500,0.7500,0.2500,Yes
+Falconer's conjecture,0.6204,0.7500,0.6500,-0.1296,Yes
+Fatou conjecture,0.1058,0.6500,0.7500,-0.5442,No
+Fortune's conjecture,0.2299,0.0000,0.2750,0.2299,No
+Frankl's union-closed sets conjecture,1.0000,0.8500,0.8500,0.1500,Yes
+Fröberg conjecture,0.8018,0.7500,0.6500,0.0518,Yes
+Fuglede's conjecture,0.2775,0.3500,0.4500,-0.0725,No
+Fujita conjecture,1.0000,0.8500,0.8500,0.1500,Yes
+Furstenberg conjecture,0.8314,0.8500,0.8500,-0.0186,Yes
+Generalized Riemann hypothesis,1.0000,0.8500,0.7500,0.1500,Yes
+Generalized Riemann hypothesis for Selberg class,1.0000,0.8500,0.8500,0.1500,Yes
+Geometrization conjecture in full generality (historical context),0.8023,0.9500,0.9500,-0.1477,Yes
+Gessel's lattice path conjecture,1.0000,0.9500,0.8500,0.0500,Yes
+Gilbreath's conjecture,1.0000,0.8750,0.8720,0.1250,Yes
+Goldbach conjecture,1.0000,0.9990,0.9990,0.0010,Yes
+Goldbach's weak conjecture,1.0000,0.9990,0.9990,0.0010,Yes
+Goormaghtigh conjecture,0.6047,0.6500,0.4320,-0.0453,Yes
+Gradient conjecture,0.1858,0.7500,0.7500,-0.5642,No
+Grand Riemann hypothesis,1.0000,0.8500,0.9500,0.1500,Yes
+Green's conjecture,0.8970,0.8500,0.8500,0.0470,Yes
+Greenberg's conjectures,0.0629,0.6500,0.4500,-0.5871,No
+Grimm's conjecture,0.0972,0.7500,0.6500,-0.6528,No
+Hadamard conjecture,0.9207,0.8500,0.8500,0.0707,Yes
+Hadwiger–Nelson problem,1.0000,0.7500,0.7500,0.2500,Yes
+Hall's conjecture,0.7707,0.7500,0.7500,0.0207,Yes
+Hanna Neumann conjecture,1.0000,0.8500,0.8750,0.1500,Yes
+Harborth's conjecture,0.8685,0.7500,0.8120,0.1185,Yes
+Hartshorne's conjectures,0.1442,0.7500,0.7500,-0.6058,No
+Heterogeneous tiling conjecture (squaring the plane),0.1645,0.1750,0.1250,-0.0105,No
+Hirsch conjecture,0.0543,0.6500,0.2500,-0.5957,No
+Hodge conjecture,0.0928,0.4500,0.3500,-0.3572,No
+Homological conjectures in commutative algebra,0.5097,0.7500,0.6500,-0.2403,Yes
+Jacobian conjecture,0.2410,0.8500,0.6500,-0.6090,No
+Jacobson's conjecture,0.0000,0.7500,0.7500,-0.7500,No
+Jaeger's Petersen-coloring conjecture,0.1212,0.6500,0.1750,-0.5288,No
+Kaplansky's conjectures,0.2752,0.7500,0.7500,-0.4748,No
+Kato's conjecture,0.6400,0.8500,0.8500,-0.2100,Yes
+Kemnitz's conjecture,1.0000,0.7500,0.7500,0.2500,Yes
+Kepler conjecture in higher dimensions,0.0000,0.1250,0.1250,-0.1250,No
+Kirillov's conjecture,0.0925,0.4500,0.3500,-0.3575,No
+Kouchnirenko's conjecture,0.3816,0.7500,0.7500,-0.3684,No
+Kueker's conjecture,0.4935,0.7500,0.6500,-0.2565,No
+Lander–Parkin–Selfridge conjecture,0.6794,0.7500,0.8500,-0.0706,Yes
+Legendre's conjecture,1.0000,0.8500,0.8750,0.1500,Yes
+Lemoine's conjecture,1.0000,0.8750,0.8720,0.1250,Yes
+Leopoldt's conjecture,0.8989,0.8500,0.8750,0.0489,Yes
+Linnik's conjecture,0.8918,0.8500,0.8500,0.0418,Yes
+Littlewood conjecture,0.9202,0.9500,0.9500,-0.0298,Yes
+Mandelbrot set local connectivity conjecture (MLC),0.7489,0.8500,0.7500,-0.1011,Yes
+Manin conjecture,1.0000,0.8500,0.8500,0.1500,Yes
+Margulis conjecture,0.8381,0.8500,0.8500,-0.0119,Yes
+McKay conjecture,0.9261,0.8500,0.8500,0.0761,Yes
+Meyniel's conjecture,0.4549,0.6500,0.6500,-0.1951,No
+Milnor conjecture (certain remaining variants),0.6435,0.8500,0.8500,-0.2065,Yes
+Monomial conjecture,0.3117,0.7500,0.7500,-0.4383,No
+Montgomery's pair correlation conjecture,1.0000,0.8500,0.9500,0.1500,Yes
+Nagata's conjecture,0.1634,0.6500,0.7500,-0.4866,No
+Nagata–Biran conjecture,0.5019,0.6500,0.6500,-0.1481,Yes
+Nash embedding problem (in certain regularities),1.0000,0.8500,0.8500,0.1500,Yes
+Navier–Stokes existence and smoothness,0.3872,0.2500,0.2500,0.1372,No
+New Mersenne conjecture,0.1871,0.7500,0.7500,-0.5629,No
+Newman's conjecture,0.6232,0.7500,0.6500,-0.1268,Yes
+Ore conjecture (in remaining generalized forms),0.2576,0.7500,0.7350,-0.4924,No
+P vs NP problem,0.7557,0.3500,0.0010,0.4057,Yes
+Parshin's conjecture,0.8027,0.8500,0.8500,-0.0473,Yes
+Pillai's conjecture,0.9070,0.8500,0.7500,0.0570,Yes
+Polignac's conjecture,0.1415,0.3500,0.3500,-0.2085,No
+Riemann hypothesis,1.0000,0.5000,0.5000,0.5000,Yes
+Rota's basis conjecture,1.0000,0.8500,0.8500,0.1500,Yes
+Schanuel's conjecture,1.0000,0.8500,0.7500,0.1500,Yes
+Scholz conjecture,0.4340,0.7500,0.4500,-0.3160,No
+Selberg's 1/4 conjecture,0.6124,0.8500,0.8500,-0.2376,Yes
+Selberg's orthogonality conjecture,1.0000,0.8500,0.8500,0.1500,Yes
+Selfridge's conjecture,0.3889,0.7500,0.7500,-0.3611,No
+Sendov's conjecture,0.0840,0.7500,0.6750,-0.6660,No
+Serre's conjecture II,1.0000,0.8500,0.8500,0.1500,Yes
+Serre's nonnegativity conjecture,0.8492,0.8500,0.8500,-0.0008,Yes
+Sierpinski's conjecture,0.6893,0.9990,0.8500,-0.3097,Yes
+Singmaster's conjecture,0.8363,0.8500,0.8500,-0.0137,Yes
+Tarski's plank problem,0.9042,0.8500,0.7500,0.0542,Yes
+Uniform boundedness conjecture for rational points,0.0665,0.6500,0.6500,-0.5835,No
+Vassiliev conjecture,0.4729,0.8500,0.8500,-0.3771,No
+Yang–Mills existence and mass gap,1.0000,0.7500,0.8500,0.2500,Yes
+Zariski–Lipman conjecture,0.8923,0.7500,0.8500,0.1423,Yes
+Zauner's conjecture on SIC-POVMs,1.0000,0.8500,0.8500,0.1500,Yes
+Zilber–Pink conjecture,1.0000,0.8500,0.8500,0.1500,Yes
