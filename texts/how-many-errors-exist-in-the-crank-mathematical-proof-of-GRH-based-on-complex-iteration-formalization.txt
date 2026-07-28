@@ -1,0 +1,192 @@
+ComplexIter.lean:353:46: error: unsolved goals
+⊢ IsNatural _root_.zero
+ComplexIter.lean:354:2: error: unexpected identifier; expected command
+ComplexIter.lean:363:4: error: Type mismatch: After simplification, term
+  add_zero_left_proof one
+ has type
+  my_eq (_root_.zero + one) one
+but is expected to have type
+  my_eq (rec _root_.zero (fun x ih => ih + one) 1) one
+ComplexIter.lean:434:8: error: Type mismatch: After simplification, term
+  my_eq_refl_proof _root_.zero
+ has type
+  my_eq _root_.zero _root_.zero
+but is expected to have type
+  my_eq (rec _root_.zero (fun x ih => ih + one) 0) _root_.zero
+ComplexIter.lean:545:99: error: unsolved goals
+x : ComplexIter
+hx : IsNatural x
+⊢ IsNatural (NaturalSucc x)
+ComplexIter.lean:546:2: error: unexpected identifier; expected command
+ComplexIter.lean:748:85: error: unsolved goals
+x : ComplexIter
+h : IsInteger x
+⊢ IsInteger (-x)
+ComplexIter.lean:749:2: error: unexpected identifier; expected command
+ComplexIter.lean:1671:89: error: unsolved goals
+d a b : ComplexIter
+hda : d ∣ a
+hdb : d ∣ b
+⊢ d ∣ a - b
+ComplexIter.lean:1672:2: error: unexpected identifier; expected command
+ComplexIter.lean:2513:114: error: unsolved goals
+x y : ComplexIter
+hx : IsRational x
+hy : IsRational y
+⊢ IsRational (x + y)
+ComplexIter.lean:2514:2: error: unexpected identifier; expected command
+ComplexIter.lean:2530:114: error: unsolved goals
+x y : ComplexIter
+hx : IsRational x
+hy : IsRational y
+⊢ IsRational (x * y)
+ComplexIter.lean:2531:2: error: unexpected identifier; expected command
+ComplexIter.lean:2700:86: error: unsolved goals
+a b c : ComplexIter
+h : lt a b
+⊢ lt (a + c) (b + c)
+ComplexIter.lean:2701:2: error: unexpected identifier; expected command
+ComplexIter.lean:2714:53: error: unsolved goals
+a : ComplexIter
+⊢ ¬lt a a
+ComplexIter.lean:2715:2: error: unexpected identifier; expected command
+ComplexIter.lean:2845:102: error: unsolved goals
+a b : ComplexIter
+ha : le _root_.zero a
+hb : le _root_.zero b
+⊢ le _root_.zero (a * b)
+ComplexIter.lean:2846:2: error: unexpected token 'have'; expected command
+ComplexIter.lean:7295:70: error: unsolved goals
+a : ComplexIter
+⊢ lt _root_.zero (|a| + one)
+ComplexIter.lean:7296:2: error: unexpected token 'have'; expected command
+ComplexIter.lean:9686:103: error: unsolved goals
+x y : Sequence
+a b : ComplexIter
+hx : converges_to x a
+hy : converges_to y b
+⊢ converges_to (fun n => dist (x n) (y n)) (dist a b)
+ComplexIter.lean:9688:0: error: unexpected token 'have'; expected command
+ComplexIter.lean:12003:54: error: unsolved goals
+P : Nat → Prop
+⊢ ¬infinitely_often P ↔ ∃ N, ∀ (n : Nat), n ≥ N → ¬P n
+ComplexIter.lean:12004:2: error: unexpected identifier; expected command
+ComplexIter.lean:13831:80: error: unsolved goals
+z : ComplexIter
+⊢ summable fun n => exp_term z n
+ComplexIter.lean:13832:2: error: unexpected token 'have'; expected command
+ComplexIter.lean:15798:6: error: Type mismatch: After simplification, term
+  h_orig
+ has type
+  le |partial_sum (cauchy_product u v) (N + 1) - partial_sum u (N + 1) * partial_sum v (N + 1)|
+    (partial_sum (fun i => |u i| * |partial_sum v (N + 1) - partial_sum v (N + 1 - i)|) (N + 1))
+but is expected to have type
+  le |partial_sum (cauchy_prod_seq u v) (N + 1) - S (N + 1) * T (N + 1)|
+    (partial_sum (fun i => |u i| * |partial_sum v (N + 1) - partial_sum v (N + 1 - i)|) (N + 1))
+ComplexIter.lean:16391:78: error: unsolved goals
+n k : Nat
+h : k ≤ n
+⊢ n + 1 - k = n - k + 1
+ComplexIter.lean:16392:2: error: unexpected identifier; expected command
+ComplexIter.lean:18022:82: error: unsolved goals
+n : Nat
+⊢ my_eq (ofNat n) (add_n_times n one)
+ComplexIter.lean:18023:2: error: unexpected identifier; expected command
+ComplexIter.lean:18088:83: error: unsolved goals
+z : ComplexIter
+⊢ my_eq (|z| * |z|) (norm_sq z)
+ComplexIter.lean:18089:0: error: unexpected identifier; expected command
+ComplexIter.lean:19557:114: error: unsolved goals
+f : ComplexIter → ComplexIter
+⊢ is_bijective f ↔ is_injective f ∧ is_surjective f
+ComplexIter.lean:19558:2: error: unexpected identifier; expected command
+ComplexIter.lean:21783:92: error: unsolved goals
+f g : ComplexIter → ComplexIter
+z : ComplexIter
+hg : continuous_at g z
+hf : continuous_at f (g z)
+⊢ continuous_at (fun x => f (g x)) z
+ComplexIter.lean:21784:0: error: unexpected identifier; expected command
+ComplexIter.lean:21790:77: error: unsolved goals
+f g : ComplexIter → ComplexIter
+z : ComplexIter
+h : ∀ (w : ComplexIter), my_eq (f w) (g w)
+hf : continuous_at f z
+⊢ continuous_at g z
+ComplexIter.lean:21791:0: error: unexpected identifier; expected command
+ComplexIter.lean:22131:54: error: unsolved goals
+x c : ComplexIter
+hc_real : IsRealElem c
+h : le |x - c| one
+⊢ le |cos x - cos c| (three * |x - c|)
+ComplexIter.lean:22133:2: error: unexpected token 'have'; expected command
+ComplexIter.lean:25298:95: error: unsolved goals
+a b c d : ComplexIter
+h1 : le a b
+h2 : le c d
+⊢ le (a - d) (b - c)
+ComplexIter.lean:25299:0: error: unexpected token 'have'; expected command
+ComplexIter.lean:25474:71: error: unsolved goals
+A : ComplexIter → Prop
+hA : is_open A
+a : Sequence
+L : ComplexIter
+hL : A L
+ha_conv : converges_to a L
+⊢ ∃ N, ∀ (n : Nat), n ≥ N → A (a n)
+ComplexIter.lean:25475:2: error: unexpected identifier; expected command
+ComplexIter.lean:30444:4: error: Type mismatch: After simplification, term
+  hc_conv
+ has type
+  converges_to ((fun n => (seq (f1 (f2 n))).c) ∘ f3) Lc
+but is expected to have type
+  converges_to (fun n => (seq (f1 (f2 (f3 n)))).c) Lc
+ComplexIter.lean:31791:132: error: unsolved goals
+l : List ComplexIter
+k : Nat
+hk : l.length < k
+⊢ my_eq (elementary_sym l k) _root_.zero
+ComplexIter.lean:31792:2: error: unexpected identifier; expected command
+ComplexIter.lean:32702:0: warning: Definition `qp_eq_intro` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+ComplexIter.lean:32903:0: error: The declaration `instBanachSpaceRecordQuadraticPoly` should not be an instance as its return type `BanachSpaceRecord
+  QuadraticPoly` is not a type class.
+ComplexIter.lean:33113:0: warning: Definition `feigenbaum_alpha_nonzero` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+ComplexIter.lean:36726:77: error: unsolved goals
+σ : ComplexIter
+n : Nat
+hn : 1 ≤ n
+hσ_real : IsRealElem σ
+⊢ my_eq (ofNat n * zeta_term σ n hn) (exp ((one - σ) * ln_real (ofNat n) ⋯ ⋯))
+ComplexIter.lean:36727:2: error: unexpected token 'let'; expected command
+ComplexIter.lean:38461:4: error: Type mismatch: After simplification, term
+  h
+ has type
+  my_eq (multiplier_n (metal_c p hp_real) (metal_sigma p hp_real) n) (power ((one + one) * metal_sigma p hp_real) n)
+but is expected to have type
+  my_eq (multiplier_n (metal_c p hp_real) (metal_ratio p hp_real) n) (power ((one + one) * metal_ratio p hp_real) n)
+ComplexIter.lean:40477:4: error: Type mismatch: After simplification, term
+  w0_closed_form p hp_real hp_pos
+ has type
+  my_eq (sum (fun n => exp (-two_pi * (ofNat (n + 1) * p))) ⋯) (div (exp (-two_pi * p)) (one - exp (-two_pi * p)) ⋯)
+but is expected to have type
+  my_eq (w0 p hp_real hp_pos) (div (exp (-two_pi * p)) (one - exp (-two_pi * p)) h_den_twopi)
+ComplexIter.lean:43648:4: error: Type mismatch: After simplification, term
+  h_symm_raw
+ has type
+  my_eq (ln_real ((one + one) * metal_ratio (-p) ⋯) ⋯ ⋯)
+    (ln_real (ofNat 4) ⋯ ⋯ - ln_real ((one + one) * metal_ratio p hp_real) ⋯ ⋯)
+but is expected to have type
+  my_eq (ln_real lam_neg h_lam_neg_real h_lam_neg_pos) (ln_real (ofNat 4) ⋯ ⋯ - ln_real lam_p h_lam_p_real h_lam_p_pos)
+ComplexIter.lean:44242:4: error: Type mismatch: After simplification, term
+  w0_closed_form p hp_real hp_pos_is
+ has type
+  my_eq (sum (fun n => exp (-two_pi * (ofNat (n + 1) * p))) ⋯) (div (exp (-two_pi * p)) (one - exp (-two_pi * p)) ⋯)
+but is expected to have type
+  my_eq (w0 p hp_real hp_pos_is) (div (exp (-two_pi * p)) (one - exp (-two_pi * p)) h_den2)
+ComplexIter.lean:44263:0: warning: Definition `two_pi_nonzero` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
