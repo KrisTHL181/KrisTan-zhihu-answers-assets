@@ -1,0 +1,80 @@
+{
+  "generated": "2026-09-25T11:28:07+00:00",
+  "params": {
+    "model": "jev-latest",
+    "instrument": "OKX USDT-margined perpetual futures, 4-hour candles",
+    "day_from": "2026-07-01",
+    "day_to": "2026-09-18",
+    "question_type": "one Choice per coin per bar: long / flat / short",
+    "context_bars_per_coin": 42,
+    "fee": 0.0005,
+    "seed": 7
+  },
+  "data_coverage": {
+    "bar": "4H",
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "XRP"
+    ],
+    "window": [
+      "2026-07-01 00:00:00 UTC",
+      "2026-09-18 20:00:00 UTC"
+    ],
+    "n_bars": 480,
+    "n_calls": 480,
+    "n_missing_decisions": 0,
+    "usage": {
+      "input_tokens": 3880056,
+      "output_tokens": 71040
+    },
+    "usage_cost_usd": 0.162962352
+  },
+  "cost_model": "taker fee + execution cost",
+  "real": {
+    "n_bars": 480,
+    "total_pct": -21.691709753891388,
+    "mean_bp": -4.878701562754174,
+    "sharpe_ann": -3.478870662077707,
+    "max_dd_pct": -24.68800349748699,
+    "gross_bp_per_bar": 0.29682976387082616,
+    "cost_bp_per_bar": 5.175531326625,
+    "turnover_per_bar": 0.7958333333333333,
+    "hit_rate": 0.46194690265486726,
+    "mean_confidence": 0.30220833333333336,
+    "mean_abs_exposure": 0.8828125
+  },
+  "reference": {
+    "inverted": {
+      "n_bars": 480,
+      "total_pct": -23.914161351400587,
+      "mean_bp": -5.472361090495827,
+      "sharpe_ann": -3.868216927228123,
+      "max_dd_pct": -28.55403652623384,
+      "gross_bp_per_bar": -0.29682976387082616,
+      "turnover_per_bar": 0.7958333333333333,
+      "hit_rate": 0.5351032448377581
+    },
+    "buy_hold": {
+      "n_bars": 480,
+      "total_pct": 38.50036427870944,
+      "mean_bp": 7.235157028325505,
+      "sharpe_ann": 3.558027839438235,
+      "max_dd_pct": -10.299263925139513,
+      "gross_bp_per_bar": 8.441938354950505,
+      "turnover_per_bar": 0.0020833333333333333,
+      "hit_rate": 0.503125
+    },
+    "random": {
+      "n_bars": 480,
+      "total_pct": -20.60533917892984,
+      "mean_bp": -4.7144964303948225,
+      "sharpe_ann": -5.158089933923215,
+      "max_dd_pct": -26.924067825562158,
+      "gross_bp_per_bar": 1.0105140628968445,
+      "turnover_per_bar": 0.9057291666666667,
+      "hit_rate": 0.4797191887675507
+    }
+  }
+}
